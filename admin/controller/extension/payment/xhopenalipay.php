@@ -157,7 +157,7 @@ class Controllerextensionpaymentxhopenalipay extends Controller
         }
         
         if(empty($data['xhopenalipay_transaction_url'] )){
-            $data['xhopenalipay_transaction_url'] ='https://pay.xunhupay.com';
+            $data['xhopenalipay_transaction_url'] ='https://pay2.xunhupay.com/v2';
         }
         //rate
         if (isset($this->request->post['xhopenalipay_rate'])) {
